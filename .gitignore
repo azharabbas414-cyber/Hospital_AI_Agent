@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Runtime sessions
+data/sessions/
+output/sessions/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# Local caches
+.cache/
+.cache_huggingface/
+huggingface_cache/
+
+# Colab
+/content/
+
+# OS
+.DS_Store
+Thumbs.db
